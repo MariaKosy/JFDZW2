@@ -9,7 +9,7 @@ class App extends Component {
     }
   }
   componentDidMount = () => {
-    fetch('https://api.randomuser.me/?results=10')
+    fetch('https://api.randomuser.me/?results=15')
       .then(response => response.json())
       .then(response => {
         const { results  } = response;
